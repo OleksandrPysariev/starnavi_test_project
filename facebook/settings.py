@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'facebook.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "facebook",
+        "NAME": "postgres",
         "USER": "postgres",
         "PASSWORD": "postgres",
         "HOST": "db",  # set in docker-compose.yml
